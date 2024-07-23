@@ -1,0 +1,26 @@
+.heading{
+    font-size: 5em;
+    text-align: center;
+}
+
+#counter{
+    font-size: 4em;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 20px 40px;
+    font-size: 2em;
+    background-color: aquamarine;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: rgb(2, 80, 54);
+    color: aliceblue;
+}
